@@ -8,18 +8,9 @@ const Header = () => {
       <nav className="navbar navbar-light bg-light">
         <div className="container-fluid">
           <Branding />
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled">Disabled</a>
-            </div>
-          </div>
+          <Menu />
         </div>
       </nav>
-  
-      {/* <Menu /> */}
     </div>
   )
 }
