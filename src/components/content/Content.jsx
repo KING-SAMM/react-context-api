@@ -4,7 +4,7 @@ import UpdateProfileName from './UpdateProfileName';
 
 const Content = () => {
   return (
-    <div>
+    <div className='container'>
       Content
       <PromoAd />
       <UpdateProfileName />
